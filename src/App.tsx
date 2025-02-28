@@ -4,7 +4,7 @@ import { faDeleteLeft } from "@fortawesome/free-solid-svg-icons";
 function App() {
   return (
     <>
-      <div className="flex justify-center items-center h-screen px-4 bg-[url(./assets/liquid-cheese.svg)] bg-no-repeat">
+      <div className="flex justify-center items-center h-screen px-4 bg-[url(./assets/liquid-cheese.svg)]">
         <div className="container bg-[#131c25]/70 rounded-3xl p-8 text-white md:max-w-2/3 lg:max-w-2/3 w-dvh">
           <div className="text-right p-5">
             <div className="text-4xl py-4">100/5*6</div>

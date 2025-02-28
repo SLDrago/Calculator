@@ -1,54 +1,58 @@
-# React + TypeScript + Vite
+# Calculator App 🧮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app is a simple design of a basic calculator using Vite React and Tailwind CSS v4.0
+Use this code as you please. Learn and grow, Happy Coding!
 
-Currently, two official plugins are available:
+## Steps to Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Step 01:
 
-## Expanding the ESLint configuration
+Clone the git repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+git clone https://github.com/SLDrago/Calculator.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+#### Step 02:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Go to the Calculator folder just downloaded:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
+cd Calculator
+```
+
+#### Step 03:
+
+Install the dependecies:
+
+```
+npm install
+```
+
+#### Step 02:
+
+Run the application:
+
+```
+npm run dev
+```
+
+## For Build
+
+Run this command:
+
+```
+npm run build
+```
+
+preview:
+
+```
+npm run preview
+```
+
+## Contributions
+
+Any contributions to the project is greatly appreciated. Use this project as you like for your purposes.
+
+## Happy Coding... 🧑‍💻
